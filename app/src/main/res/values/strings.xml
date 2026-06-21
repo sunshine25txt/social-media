@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Focus Shield</string>
+
+    <!-- Onboarding -->
+    <string name="welcome_title">Welcome to Focus Shield</string>
+    <string name="welcome_subtitle">Take control of your screen time. Block addictive content while keeping productive apps accessible.</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
+    <string name="finish_setup">Finish Setup</string>
+
+    <!-- Goals -->
+    <string name="select_goal">What\'s your primary goal?</string>
+    <string name="goal_study">Study Focus</string>
+    <string name="goal_exam">Exam Preparation</string>
+    <string name="goal_work">Work Productivity</string>
+    <string name="goal_reduce">Reduce Addiction</string>
+    <string name="goal_custom">Custom</string>
+
+    <!-- App Selection -->
+    <string name="select_apps">Which apps should Focus Shield monitor?</string>
+    <string name="select_apps_desc">Choose the apps where short-form content should be blocked.</string>
+
+    <!-- Blocking Styles -->
+    <string name="blocking_style_title">Choose your blocking style</string>
+    <string name="blocking_soft">Soft — Confirmation dialog</string>
+    <string name="blocking_soft_desc">A gentle reminder asking if you really want to continue</string>
+    <string name="blocking_medium">Medium — 10 second wait</string>
+    <string name="blocking_medium_desc">Creates a pause before you can access content</string>
+    <string name="blocking_hard">Hard — Instant block</string>
+    <string name="blocking_hard_desc">Immediately blocks the content with no delay</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">Grant Permissions</string>
+    <string name="permissions_desc">Focus Shield needs these permissions to protect your focus time.</string>
+    <string name="permission_accessibility">Accessibility Service</string>
+    <string name="permission_accessibility_desc">Required to detect short-form content (Reels, Shorts, Stories) within apps. Focus Shield reads on-screen elements to identify addictive content surfaces — it does not read your personal messages or passwords.</string>
+    <string name="permission_usage_access">Usage Access</string>
+    <string name="permission_usage_access_desc">Required to track your screen time and provide analytics on time saved.</string>
+    <string name="permission_overlay">Display Over Other Apps</string>
+    <string name="permission_overlay_desc">Required to show block screens and timer widgets over other apps.</string>
+    <string name="permission_notifications">Notifications</string>
+    <string name="permission_notifications_desc">Required to remind you about focus sessions and streak updates.</string>
+    <string name="permission_granted">Granted</string>
+    <string name="permission_not_granted">Not Granted</string>
+    <string name="permission_grant">Grant</string>
+    <string name="permission_required">This permission is required for Focus Shield to work properly.</string>
+    <string name="permission_disabled_banner">Some permissions are missing. Tap to fix.</string>
+
+    <!-- Accessibility Disclosure (Play Store compliance) -->
+    <string name="accessibility_disclosure_title">How Focus Shield Uses Accessibility</string>
+    <string name="accessibility_disclosure_body">Focus Shield uses the Android Accessibility Service exclusively to:\n\n• Detect when short-form content surfaces (Reels, Shorts, Stories, Explore feeds) are displayed\n• Read URL bars in browsers to block configured websites\n• Identify which screen within a monitored app is active\n\nFocus Shield does NOT:\n• Read your private messages, passwords, or personal data\n• Collect or transmit any content you view\n• Modify or interact with other apps on your behalf\n• Record your screen or take screenshots\n\nAll detection happens entirely on your device. No data leaves your phone unless you explicitly enable cloud sync features.\n\nYou can disable this permission at any time in Settings → Accessibility.</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="time_saved_today">Time Saved Today</string>
+    <string name="shorts_blocked">Shorts Blocked</string>
+    <string name="focus_score">Focus Score</string>
+    <string name="current_streak">Current Streak</string>
+    <string name="days">days</string>
+    <string name="minutes">min</string>
+    <string name="hours">hrs</string>
+
+    <!-- Block Overlay -->
+    <string name="content_blocked">Content Blocked</string>
+    <string name="blocked_message">Focus Shield detected short-form content. Stay focused!</string>
+    <string name="time_saved_label">Time Saved</string>
+    <string name="go_back">Go Back</string>
+    <string name="pause_timer">Pause (5 min)</string>
+
+    <!-- Study Mode -->
+    <string name="study_mode">Study Mode</string>
+    <string name="study_mode_active">Study Mode Active</string>
+    <string name="start_study">Start Studying</string>
+    <string name="end_study">End Session</string>
+
+    <!-- Pause -->
+    <string name="pause_title">Pause Blocking</string>
+    <string name="pause_reason">Why do you need a pause?</string>
+    <string name="reason_educational">Educational</string>
+    <string name="reason_work">Work</string>
+    <string name="reason_emergency">Emergency</string>
+    <string name="reason_other">Other</string>
+
+    <!-- App Lock -->
+    <string name="app_lock_title">App Lock</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="use_fingerprint">Use Fingerprint</string>
+    <string name="unlock">Unlock</string>
+    <string name="wrong_pin">Wrong PIN. Try again.</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="blocked_apps">Blocked Apps</string>
+    <string name="blocking_style">Blocking Style</string>
+    <string name="permission_status">Permission Status</string>
+    <string name="playful_interruptions">Playful Interruptions</string>
+    <string name="playful_interruptions_desc">Show animated characters when timer ends (opt-in)</string>
+    <string name="strict_mode">Strict Mode</string>
+    <string name="strict_mode_desc">Add break challenges after timer ends</string>
+    <string name="notification_preferences">Notification Preferences</string>
+    <string name="battery_optimization">Battery Optimization</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about">About Focus Shield</string>
+
+    <!-- Statistics -->
+    <string name="statistics">Statistics</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="today_victory">Today\'s Victory</string>
+    <string name="weekly_review">Weekly Review</string>
+
+    <!-- Timer -->
+    <string name="watch_timer">Watch Allowance Timer</string>
+    <string name="set_duration">Set Duration</string>
+    <string name="timer_running">Timer Running</string>
+    <string name="time_remaining">Time Remaining</string>
+    <string name="extend_timer">Extend</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_focus">Focus</string>
+    <string name="nav_statistics">Statistics</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_focus">Focus Shield Active</string>
+    <string name="notification_channel_alerts">Focus Alerts</string>
+    <string name="notification_focus_active">Focus Shield is monitoring your apps</string>
+    <string name="notification_service_disabled">Accessibility Service is disabled. Tap to re-enable.</string>
+
+    <!-- Interruption Engine -->
+    <string name="focus_time_ended">Focus Time Ended</string>
+    <string name="take_a_break">Time for a break!</string>
+    <string name="break_challenge">Stand up, drink water, walk for 2 minutes</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="close_app">Close App</string>
+    <string name="extend_5min">Extend 5 min</string>
+    <string name="session_reflection_title">What did you watch?</string>
+    <string name="reflection_study">Study</string>
+    <string name="reflection_entertainment">Entertainment</string>
+    <string name="reflection_news">News</string>
+    <string name="reflection_other">Other</string>
+
+    <!-- Privacy Policy (stub — flag for real legal copy) -->
+    <string name="privacy_policy_content">PLACEHOLDER — This privacy policy requires real legal copy before Play Store submission.\n\nFocus Shield collects the following data, all stored locally on your device:\n• App usage statistics (which monitored apps were opened and when)\n• Blocked content events (timestamp, app, content type)\n• Study session records\n• Focus streaks and achievement progress\n\nNo data leaves your device unless you explicitly enable cloud sync (v2 feature).\n\nFocus Shield uses the Accessibility Service solely for detecting short-form content surfaces within monitored apps. It does not read, store, or transmit your personal content, messages, passwords, or browsing history.\n\nContact: [your-email@example.com]</string>
+</resources>
